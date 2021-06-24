@@ -1,0 +1,53 @@
+.grid-container  {
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    border: 1px solid black
+}
+
+.dog-name { grid-area: header; }
+.dog-image {grid-area: dog-image}
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.info-cell {
+    border: 1px solid black;
+}
+
+.image-cell {
+    display: flex;
+}
+
+.image-cell > .info-cell {
+    flex: 1;
+}
+
+.image-cell > .info-cell-image {
+    margin-left: 2em;
+}
+
+.info-cell > .info-cell-body {
+    padding: 0.5em;
+}
+
+.info-cell > h2 {
+    padding: 0.2em;
+    margin-top: 0;
+    color: royalblue;
+    background-color: lightblue;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+label {
+    width: 100px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    display: inline-block;
+}
